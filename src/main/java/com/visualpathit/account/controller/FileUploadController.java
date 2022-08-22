@@ -67,13 +67,13 @@ public class FileUploadController {
 				logger.info("Server File Location="
 						+ serverFile.getAbsolutePath());
 
-				return "You successfully uploaded file=" + name +".png";
+				return "Se subio correctamente=" + name +".png";
 			} catch (Exception e) {
-				return "You failed to upload " + name +".png" + " => " + e.getMessage();
+				return "No se pudo subir la foto " + name +".png" + " => " + e.getMessage();
 			}
 		} else {
-			return "You failed to upload " + name +".png"
-					+ " because the file was empty.";
+			return "Error al subir. " + name +".png"
+					+ " el archivo esta vacio.";
 		}
 	}
 
