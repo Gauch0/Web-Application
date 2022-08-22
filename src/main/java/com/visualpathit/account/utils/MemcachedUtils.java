@@ -29,7 +29,7 @@ public class MemcachedUtils {
     			System.out.println("--------------------------------------------");
 	            Future future = mactiveClient.set(key,expireTime, user);	        	         
 	     	    System.out.println("set status:" + future.get());
-	     	    Result =" Data is From DB and Data Inserted In Cache !!";
+	     	    Result =" Los datos recibidos de la bases de datos fueron insertados en la cache.. !!";
 	     	    mactiveClient.shutdown();             
 	           
     		

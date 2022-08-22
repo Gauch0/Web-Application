@@ -1,13 +1,14 @@
 Vagrant.configure("2") do |config|
     config.hostmanager.enabled = true 
     config.hostmanager.manage_host = true
-    
+        
   ### CREATE NGINX VM ###
     config.vm.define "web01" do |web01|
       web01.vm.box = "ubuntu/xenial64"
       web01.vm.hostname = "web01"
       web01.vm.network "private_network", ip: "192.168.56.11"
     end
+
   ### CREATE TOMCAT VM ###
     config.vm.define "app01" do |app01|
      app01.vm.box = "geerlingguy/centos7"

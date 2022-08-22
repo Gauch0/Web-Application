@@ -24,6 +24,6 @@ public class ConsumerServiceImpl implements ConsumerService {
             exchange = @Exchange(value = EXCHANGE_NAME, type = ExchangeTypes.FANOUT)))
     public void consumerMessage(byte[] data) {
         String consumedMessage = new String(data);
-        System.out.println(" [x] Consumed  '" + consumedMessage + "'");
+        System.out.println(" [x] Consumido  '" + consumedMessage + "'");
     }
 }

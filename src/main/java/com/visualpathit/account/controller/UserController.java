@@ -60,10 +60,10 @@ public class UserController {
     public final String login(final Model model, final String error, final String logout) {
         System.out.println("Model data"+model.toString());
     	if (error != null){
-            model.addAttribute("error", "Your username and password is invalid.");
+            model.addAttribute("error", "Tu usuario y contrasenia es invalida");
         }
         if (logout != null){
-            model.addAttribute("message", "You have been logged out successfully.");
+            model.addAttribute("message", "Te pudiste logear correctamente");
         }
         return "login";
     }
@@ -97,7 +97,7 @@ public class UserController {
     			User userData =  MemcachedUtils.memcachedGetData(id);
     			Result ="Data is From Cache";
     			System.out.println("--------------------------------------------");
-    			System.out.println("Data is From Cache !!");
+    			System.out.println("La data viene de la cache !!");
     			System.out.println("--------------------------------------------");
     			System.out.println("Father ::: "+userData.getFatherName());
     			model.addAttribute("user", userData);
@@ -107,10 +107,10 @@ public class UserController {
 	    		User user = userService.findById(Long.parseLong(id)); 
 	    		Result = MemcachedUtils.memcachedSetData(user,id);
 	    		if(Result == null ){
-	    			Result ="Memcached Connection Failure !!";
+	    			Result ="Error de conexion con memcache !!";
 	    		}
 	    		System.out.println("--------------------------------------------");
-    			System.out.println("Data is From Database");
+    			System.out.println("Los datos estan desde la base de datos");
     			System.out.println("--------------------------------------------");
 		        System.out.println("Result ::: "+ Result);	       
 		        model.addAttribute("user", user);
@@ -157,7 +157,7 @@ public class UserController {
     
     @RequestMapping(value={"/user/rabbit"}, method={RequestMethod.GET})
     public String rabbitmqSetUp() { 
-    	System.out.println("Rabbit mq method is callled!!!");
+    	System.out.println("RABBIT MQ IS CALLED");
       for (int i = 0; i < 20; i++) {
         producerService.produceMessage(generateString());
       }
