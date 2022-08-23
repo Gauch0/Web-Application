@@ -34,7 +34,7 @@
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
                                 <li><a href="./ORqmj">Stream</a></li>
-                                <li><a href="#">My Activity</a></li>
+                                <li><a href="#">My Actividad</a></li>
                                 <li><span class="badge badge-important">2</span><a href="#"><i class="fa fa-bell-o fa-lg" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a></li>
                             </ul>
@@ -63,9 +63,9 @@
                                                         <div class="divider">
                                                         </div>
                                                         <a href="${contextPath}/user/${pageContext.request.userPrincipal.name}" class="btn btn-default btn-xs"><i class="fa fa-user-o" aria-hidden="true"></i> UpdateProfile </a>
-                                                        <a href="#" class="btn btn-default btn-xs"><i class="fa fa-address-card-o" aria-hidden="true"></i> Contacts</a>
-                                                        <a href="#" class="btn btn-default btn-xs"><i class="fa fa-cogs" aria-hidden="true"></i> Settings</a>
-                                                        <a href="#" class="btn btn-default btn-xs"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Help!</a>
+                                                        <a href="#" class="btn btn-default btn-xs"><i class="fa fa-address-card-o" aria-hidden="true"></i> Contacto</a>
+                                                        <a href="#" class="btn btn-default btn-xs"><i class="fa fa-cogs" aria-hidden="true"></i> Configuracion</a>
+                                                        <a href="#" class="btn btn-default btn-xs"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Ayuda!</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -73,10 +73,10 @@
                                                 <div class="navbar-footer-content">
                                                     <div class="row">
                                                         <div class="col-md-6">
-                                                            <a href="#" class="btn btn-default btn-sm"><i class="fa fa-unlock-alt" aria-hidden="true"></i> Change Passowrd</a>
+                                                            <a href="#" class="btn btn-default btn-sm"><i class="fa fa-unlock-alt" aria-hidden="true"></i> Cambiar contraseña</a>
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <a onclick="document.forms['logoutForm'].submit()" class="btn btn-default btn-sm pull-right"><i class="fa fa-power-off" aria-hidden="true"></i> Sign Out</a>
+                                                            <a onclick="document.forms['logoutForm'].submit()" class="btn btn-default btn-sm pull-right"><i class="fa fa-power-off" aria-hidden="true"></i>Desconectarse</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -100,17 +100,17 @@
                         </div>
                         <div class="media-body">
                             <hr>
-                            <h3><strong>Bio</strong></h3>
-                            <p>DevOps For Product Management and Strategy of Application Delivery at VisualPath Technologies. Responsible of providing customers with counsel on their DevOps strategies to help them deliver higher quality software and services to market faster.</p>
+                            <h3><strong>Biografia</strong></h3>
+                            <p>Leonardo Guillermo Mattioli, más conocido como Leo Mattioli, "el león santafesino", fue un cantante de cumbia y compositor argentino. Uno de los máximos exponentes del Romanticismo. Con una carrera repleta de éxitos</p>
                             <hr>
-                            <h3><strong>Location</strong></h3>
-                            <p>Earth</p>
+                            <h3><strong>Locacion</strong></h3>
+                            <p>Argentina</p>
                             <hr>
-                            <h3><strong>Gender</strong></h3>
-                            <p>Unknown</p>
+                            <h3><strong>Genero</strong></h3>
+                            <p>Masculino</p>
                             <hr>
                             <h3><strong>Birthday</strong></h3>
-                            <p>January 01 1901</p>
+                            <p>13 de agosto de 1972 </p>
                         </div>
                     </div>
                 </div>
@@ -128,11 +128,11 @@
                                 <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                <li><a href="#">Familly</a></li>
-                                <li><a href="#"><i class="fa fa-fw fa-check" aria-hidden="true"></i> Friends</a></li>
-                                <li><a href="#">Work</a></li>
+                                <li><a href="#">Famillia</a></li>
+                                <li><a href="#"><i class="fa fa-fw fa-check" aria-hidden="true"></i> Amigos</a></li>
+                                <li><a href="#">Trabajo</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="#"><i class="fa fa-fw fa-plus" aria-hidden="true"></i> Add a new aspect</a></li>
+                                <li><a href="#"><i class="fa fa-fw fa-plus" aria-hidden="true"></i> Agregar nuevo aspecto</a></li>
                             </ul>
                         </div>
                     </span>
@@ -150,8 +150,8 @@
                     <br><br><hr>
                     <span class="pull-left">
                         <a href="#" class="btn btn-link" style="text-decoration:none;"><i class="fa fa-fw fa-files-o" aria-hidden="true"></i> Posts</a>
-                        <a href="#" class="btn btn-link" style="text-decoration:none;"><i class="fa fa-fw fa-picture-o" aria-hidden="true"></i> Photos <span class="badge">42</span></a>
-                        <a href="#" class="btn btn-link" style="text-decoration:none;"><i class="fa fa-fw fa-users" aria-hidden="true"></i> Contacts <span class="badge">42</span></a>
+                        <a href="#" class="btn btn-link" style="text-decoration:none;"><i class="fa fa-fw fa-picture-o" aria-hidden="true"></i> Fotos <span class="badge">42</span></a>
+                        <a href="#" class="btn btn-link" style="text-decoration:none;"><i class="fa fa-fw fa-users" aria-hidden="true"></i> Contactos <span class="badge">42</span></a>
                     </span>
                     <span class="pull-right">
                         <a href="#" class="btn btn-link" style="text-decoration:none;"><i class="fa fa-lg fa-at" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Mention"></i></a>
@@ -178,27 +178,27 @@
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dd1" style="float: right;">
-                                    <li><a href="#"><i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Report</a></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-ban" aria-hidden="true"></i> Ignore</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Reportar</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-ban" aria-hidden="true"></i> Ignorar</a></li>
                                     <li><a href="#"><i class="fa fa-fw fa-bell" aria-hidden="true"></i> Enable notifications for this post</a></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-eye-slash" aria-hidden="true"></i> Hide</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-eye-slash" aria-hidden="true"></i> Ocultar</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-trash" aria-hidden="true"></i> Delete</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-trash" aria-hidden="true"></i> Eliminar</a></li>
                                 </ul>
                             </div>
                         </div>
                     </span>
                     <hr>
                     <div class="post-content">
-                        <p>"The Key to DevOps Success."</p>
-                        <p>The Key to DevOps Success" Collaboration". Collaboration is essential to DevOps,yet how to do it is often unclear with many teams falling back on ineffective conference calls, instant messaging, documents, and SharePoint sites. In this keynote,we will share a vision for a next generation DevOps where collaboration, continuous documentation, and knowledge capture are combined with automation toolchains to enable rapid innovation and deployment.</p>
+                        <p>"Sin música, la vida sería un error"</p>
+                        <p>La música expresa lo que no puede ser dicho y aquello sobre lo que es imposible permanecer en silencio</p>
                     </div>
                     <hr>
                     <div>
                         <div class="pull-right btn-group-xs">
                             <a class="btn btn-default btn-xs"><i class="fa fa-heart" aria-hidden="true"></i> Like</a>
-                            <a class="btn btn-default btn-xs"><i class="fa fa-retweet" aria-hidden="true"></i> Reshare</a>
-                            <a class="btn btn-default btn-xs"><i class="fa fa-comment" aria-hidden="true"></i> Comment</a>
+                            <a class="btn btn-default btn-xs"><i class="fa fa-retweet" aria-hidden="true"></i> Compartir</a>
+                            <a class="btn btn-default btn-xs"><i class="fa fa-comment" aria-hidden="true"></i> Commentar</a>
                         </div>
                         <div class="pull-left">
                             <p class="text-muted" style="margin-left:5px;"><i class="fa fa-globe" aria-hidden="true"></i> Public</p>
@@ -235,12 +235,12 @@
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dd1" style="float: right;">
-                                    <li><a href="#"><i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Report</a></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-ban" aria-hidden="true"></i> Ignore</a></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-bell" aria-hidden="true"></i> Enable notifications for this post</a></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-eye-slash" aria-hidden="true"></i> Hide</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Reportar</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-ban" aria-hidden="true"></i> Ignorar</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-bell" aria-hidden="true"></i> Activar notificationes</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-eye-slash" aria-hidden="true"></i> Ocultar</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-trash" aria-hidden="true"></i> Delete</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-trash" aria-hidden="true"></i> Eliminar</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -254,14 +254,14 @@
                                         <img class="media-object img-circle" src="${contextPath}/resources/Images/user/user2.png" width="50px" height="50px" style="margin-right:8px; margin-top:-5px;">
                                     </a>
                                 </div>
-                                <h4><a href="#" style="text-decoration:none;"><strong>Waheed Khan</strong></a> <small><small><a href="#" style="text-decoration:none; color:grey;"><i><i class="fa fa-clock-o" aria-hidden="true"></i> about 10 hours ago</i></a></small></small></h4>
+                                <h4><a href="#" style="text-decoration:none;"><strong>Luis miguel</strong></a> <small><small><a href="#" style="text-decoration:none; color:grey;"><i><i class="fa fa-clock-o" aria-hidden="true"></i> about 10 hours ago</i></a></small></small></h4>
                                 <hr>
                                 <div class="post-content">
-                                     <p>What are DevOps skills?</p>
-                                    <p>Our respondents identified the top three skill areas for DevOps staff:</p>
-                                    <p>1) Coding or scripting 2)Process re-engineering 3)Communicating and collaborating with others Extensive knowledge of software build cycles 4)Experience deploying code 5)Experience in software architecture 6)Familiarity with application programming 7)Database management 8)System design.</p>
-									<p>These skills all point to a growing recognition that software is not written in the old way anymore. Where software used to be written from scratch in a highly complex and lengthy process, creating new products is now often a matter of choosing open source components and stitching them together with code. The complexity of todays software lies less in the authoring, and more in ensuring that the new software will work across a diverse set of operating systems and platforms right away. Likewise, testing and deployment are now done much more frequently. That is, they can be more frequent,if developers communicate early and regularly with the operations team, and if ops people bring their knowledge of the production environment to design of testing and staging environments.</p>                                
-                                    <p>Demand for people with DevOps skills is growing rapidly because businesses get great results from DevOps. Organizations using DevOps practices are overwhelmingly high-functioning: They deploy code up to 30 times more frequently than their competitors.</p>
+                                     <p>En la vida hay amores que nunca pueden olvidarse.</p>
+                                    <p>El mejor momento de mi vida fue cuando sentí estar enamorado por primera vez.</p>
+                                    <p>Te recuerdo así, tu pelo en libertad y en lo ardiente, diferente a las demás.</p>
+									<p>Prefiero el idioma español porque tiene muchas formas de decir te quiero.</p>                                
+                                    <p>Nos juramos lealtad sin testigos.</p>
                                 </div>
                             </div>
                         </div>
@@ -269,12 +269,12 @@
                     <hr>
                     <div>
                         <div class="pull-right btn-group-xs">
-                            <a class="btn btn-default btn-xs"><i class="fa fa-heart" aria-hidden="true"></i> Like</a>
-                            <a class="btn btn-default btn-xs"><i class="fa fa-retweet" aria-hidden="true"></i> Reshare</a>
-                            <a class="btn btn-default btn-xs"><i class="fa fa-comment" aria-hidden="true"></i> Comment</a>
+                            <a class="btn btn-default btn-xs"><i class="fa fa-heart" aria-hidden="true"></i> Me gusta</a>
+                            <a class="btn btn-default btn-xs"><i class="fa fa-retweet" aria-hidden="true"></i> Compartir</a>
+                            <a class="btn btn-default btn-xs"><i class="fa fa-comment" aria-hidden="true"></i> Comentar</a>
                         </div>
                         <div class="pull-left">
-                            <p class="text-muted" style="margin-left:5px;"><i class="fa fa-globe" aria-hidden="true"></i> Public</p>
+                            <p class="text-muted" style="margin-left:5px;"><i class="fa fa-globe" aria-hidden="true"></i> Publicar</p>
                         </div>
                         <br>
                     </div>
@@ -308,31 +308,31 @@
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dd1" style="float: right;">
-                                    <li><a href="#"><i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Report</a></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-ban" aria-hidden="true"></i> Ignore</a></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-bell" aria-hidden="true"></i> Enable notifications for this post</a></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-eye-slash" aria-hidden="true"></i> Hide</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Reportar</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-ban" aria-hidden="true"></i> Ignorar</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-bell" aria-hidden="true"></i> Activar notificationes</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-eye-slash" aria-hidden="true"></i> Ocultar</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-trash" aria-hidden="true"></i> Delete</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-trash" aria-hidden="true"></i> Eliminar</a></li>
                                 </ul>
                             </div>
                         </div>
                     </span>
                     <hr>
                     <div class="post-content">
-                        <p>" Manager Reaction On Your Work without DevOps "</p>
+                        <p>" Tus palabras son caricias a mi corazón, Marcela. "</p>
                         <img class="img-responsive" src="${contextPath}/resources/Images/user/giphy.gif">
-                        <p><br><a href="#" class="tag">#  I want DevOps </a> <a href="#" class="tag">#  DevOps..</a></p>
+                        <p><br><a href="#" class="tag">#  No pretendo ser tu dueño, no soy nada. Ya no tengo vanidad. </a> <a href="#" class="tag">Quiero llevar toda la pasión hacia la eternidad.</a></p>
                     </div>
                     <hr>
                     <div>
                         <div class="pull-right btn-group-xs">
-                            <a class="btn btn-default btn-xs"><i class="fa fa-heart" aria-hidden="true"></i> Like</a>
-                            <a class="btn btn-default btn-xs"><i class="fa fa-retweet" aria-hidden="true"></i> Reshare</a>
-                            <a class="btn btn-default btn-xs"><i class="fa fa-comment" aria-hidden="true"></i> Comment</a>
+                            <a class="btn btn-default btn-xs"><i class="fa fa-heart" aria-hidden="true"></i>Me gusta</a>
+                            <a class="btn btn-default btn-xs"><i class="fa fa-retweet" aria-hidden="true"></i>Compartir</a>
+                            <a class="btn btn-default btn-xs"><i class="fa fa-comment" aria-hidden="true"></i> Comentar</a>
                         </div>
                         <div class="pull-left">
-                            <p class="text-muted" style="margin-left:5px;"><i class="fa fa-globe" aria-hidden="true"></i> Public <strong>via mobile</strong></p>
+                            <p class="text-muted" style="margin-left:5px;"><i class="fa fa-globe" aria-hidden="true"></i> Publicado <strong>via iphone</strong></p>
                         </div>
                         <br>
                     </div>
@@ -366,34 +366,34 @@
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dd1" style="float: right;">
-                                    <li><a href="#"><i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Report</a></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-ban" aria-hidden="true"></i> Ignore</a></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-bell" aria-hidden="true"></i> Enable notifications for this post</a></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-eye-slash" aria-hidden="true"></i> Hide</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Reportar</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-ban" aria-hidden="true"></i>Ignorar</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-bell" aria-hidden="true"></i>Activar notificationes</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-eye-slash" aria-hidden="true"></i> Ocultar</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#"><i class="fa fa-fw fa-trash" aria-hidden="true"></i> Delete</a></li>
+                                    <li><a href="#"><i class="fa fa-fw fa-trash" aria-hidden="true"></i>Eliminar</a></li>
                                 </ul>
                             </div>
                         </div>
                     </span>
                     <hr>
                     <div class="post-content">
-                        <p>"Feeling Happy to be a DevOps."</p>
+                        <p>"Ahora te podes marchar."</p>
                     </div>
                     <hr>
                     <div>
                         <div class="pull-right btn-group-xs">
-                            <a class="btn btn-default btn-xs"><i class="fa fa-heart" aria-hidden="true"></i> Like</a>
-                            <a class="btn btn-default btn-xs"><i class="fa fa-comment" aria-hidden="true"></i> Comment</a>
+                            <a class="btn btn-default btn-xs"><i class="fa fa-heart" aria-hidden="true"></i>Me gusta</a>
+                            <a class="btn btn-default btn-xs"><i class="fa fa-comment" aria-hidden="true"></i> Comentar</a>
                         </div>
                         <div class="pull-left">
-                            <p class="text-muted" style="margin-left:5px;"><i class="fa fa-user-secret" aria-hidden="true"></i> Limited</p>
+                            <p class="text-muted" style="margin-left:5px;"><i class="fa fa-user-secret" aria-hidden="true"></i> Limitado</p>
                         </div>
                         <br>
                     </div>
                     <hr>
                     <div>
-                        <a class="btn btn-default btn-xs"><i class="fa fa-bars" aria-hidden="true"></i> Show 12 more comments</a>
+                        <a class="btn btn-default btn-xs"><i class="fa fa-bars" aria-hidden="true"></i>Mostrar 12 comentarios mas</a>
                         <hr>
                         <div class="post-content">
                             <div class="panel-default">
@@ -403,10 +403,10 @@
                                             <img class="media-object img-circle" src="${contextPath}/resources/Images/user/user2.png" width="35px" height="35px" style="margin-right:8px; margin-top:-5px;">
                                         </a>
                                     </div>
-                                    <h4><a href="#" style="text-decoration:none;"><strong>Kiran Kumar</strong></a></h4>
+                                    <h4><a href="#" style="text-decoration:none;"><strong>Luis miguel</strong></a></h4>
                                     <hr>
                                     <div class="post-content">
-                                        <p>DevOps has significant importance to any company delivering software or technical services today.Defining DevOps is trickier than you would think, primarily because of its wide usage. It is essentially shorthand, and nothing more than that, for a lean approach to software delivery.</p>
+                                        <p>Ya va llegando el mariachi cantando con sus guitarras y guitarrones pa’ que se alegren y retocen los corazones.</p>
                                         <br><small><small><a href="#" style="text-decoration:none; color:grey;"><i><i class="fa fa-clock-o" aria-hidden="true"></i> 12 minutes ago</i></a></small></small>
                                     </div>
                                 </div>
@@ -421,10 +421,12 @@
                                             <img class="media-object img-circle" src="${contextPath}/resources/Images/user/user3.png" width="35px" height="35px" style="margin-right:8px; margin-top:-5px;">
                                         </a>
                                     </div>
-                                    <h4><a href="#" style="text-decoration:none;"><strong>Mi Chleen</strong></a></h4>
+                                    <h4><a href="#" style="text-decoration:none;"><strong>Menem</strong></a></h4>
                                     <hr>
                                     <div class="post-content">
-                                        <p>The secret to DevOps maturity is not technology or process, but people. It takes engaged leadership and all for one cooperation to achieve the kind of results that lead companies to superior IT performance. High-performing DevOps teams can recover 168 times faster from failures and have 60 times fewer failures due to changes, according to the 2015 State of DevOps Report by Puppet Labs. High-performing teams also release code at significantly increasing velocity as their teams grow in size, approaching three deploys per day per developer, for teams of around 1000 developers.</p>
+                                        <p>No hay nada noble es ser superior a tu prójimo; la verdadera nobleza es ser superior a tu yo interior.
+                                            Aguante el 1 a 1
+                                        </p>
                                         <br><small><small><a href="#" style="text-decoration:none; color:grey;"><i><i class="fa fa-clock-o" aria-hidden="true"></i> 9 minutes ago</i></a></small></small>
                                     </div>
                                 </div>
@@ -442,7 +444,7 @@
                                     <h4><a href="#" style="text-decoration:none;"><strong>${pageContext.request.userPrincipal.name}</strong></a></h4>
                                     <hr>
                                     <div class="post-content">
-                                        <p>At a time when the speed of application development is vital to commercial success, the DevOps methodology based on communication, collaboration, integration and automation has become one of the biggest IT moves around. However, it is more than just a business philosophy;to do it right requires genuine infrastructure investment and development.</p>
+                                        <p>Tengo información que podría llevar al arresto de Cristina Fernández de Kirchner.</p>
                                         <br><small><small><a href="#" style="text-decoration:none; color:grey;"><i><i class="fa fa-clock-o" aria-hidden="true"></i> 2 minutes ago</i></a></small></small>
                                     </div>
                                 </div>

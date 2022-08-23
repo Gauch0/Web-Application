@@ -40,7 +40,7 @@
       
 		 <div class="form-group">
         	<spring:bind path="username">        
-	           <form:label class="col-md-4 control-label" path="username">Name :</form:label>
+	           <form:label class="col-md-4 control-label" path="username">Nombre :</form:label>
 	            <div class="col-md-4">
 	           	 <div class="input-group">
 	           	 <div class="input-group-addon">
@@ -68,7 +68,7 @@
        </div>
         <div class="form-group">
         	<spring:bind path="dateOfBirth">        
-	           <form:label class="col-md-4 control-label" path="dateOfBirth">Date Of Birth :</form:label>
+	           <form:label class="col-md-4 control-label" path="dateOfBirth">Fecha de nacim' :</form:label>
 	            <div class="col-md-4">
 	           	 <div class="input-group">
 	           	 <div class="input-group-addon">

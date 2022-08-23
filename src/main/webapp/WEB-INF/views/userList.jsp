@@ -46,15 +46,15 @@ body{
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="#technologies">TECHNOLOGIES</a></li>
-                                <li><a href="#about">ABOUT</a></li>
-                                <li><a href="#contact">CONTACT</a></li>
+                                <li><a href="#technologies">TECNOLOGIAS</a></li>
+                                <li><a href="#about">SOBRE</a></li>
+                                <li><a href="#contact">CONTACTO</a></li>
                                 <li><a href="#">BLOG</a></li>
                             </ul>
                             <div class="navbar-collapse navbar-right collapse">
 	                            <ul class="nav navbar-nav">
 	                        	 <li><a href="${contextPath}/login">LOGIN</a></li>
-	                        	 <li><a href="${contextPath}/registration">SIGN UP</a></li>
+	                        	 <li><a href="${contextPath}/registration">REGISTRARSE</a></li>
 	                       	 	</ul>
                             </div>
                             
@@ -69,10 +69,10 @@ body{
 <!-- Header -->    
 	<div class="container">
 	<div class="table-responsive">
-	<h2 align="center"> Users List</h2> 
+	<h2 align="center"> Lista de usuarios</h2> 
     <table class="table table-bordered">
         <tr>
-            <th>User Name</th>
+            <th>Nombre de usuario</th>
             <th>User Id</th>
         </tr>
         <c:forEach items="${users}" var="user">

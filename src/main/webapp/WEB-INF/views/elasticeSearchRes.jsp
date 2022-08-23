@@ -12,8 +12,8 @@
 <title>vp-elasticsearch</title>
 </head>
 <body>
-<h1>Data  is ${result} into Elasticsearch</h1>
-<h2>Please go to elastic search dash board and verify link ip:9200/users/user/id  </h2>
+<h1>Data es ${result} dentro de Elasticsearch</h1>
+<h2>Porfavor ve a  elastic search dash board y verifica el link ip:9200/users/user/id  </h2>
 
 </body>
 </html>

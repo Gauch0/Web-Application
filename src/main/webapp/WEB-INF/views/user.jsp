@@ -46,15 +46,15 @@ body{
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="#technologies">TECHNOLOGIES</a></li>
-                                <li><a href="#about">ABOUT</a></li>
-                                <li><a href="#contact">CONTACT</a></li>
+                                <li><a href="#technologies">TECHNOLOGIAS</a></li>
+                                <li><a href="#about">SOBRE MI</a></li>
+                                <li><a href="#contact">CONTACTAME</a></li>
                                 <li><a href="#">BLOG</a></li>
                             </ul>
                             <div class="navbar-collapse navbar-right collapse">
 	                            <ul class="nav navbar-nav">
 	                        	 <li><a href="${contextPath}/login">LOGIN</a></li>
-	                        	 <li><a href="${contextPath}/registration">SIGN UP</a></li>
+	                        	 <li><a href="${contextPath}/registration">REGISTRARSE</a></li>
 	                       	 	</ul>
                             </div>
                             
@@ -70,16 +70,16 @@ body{
    
 	<div class="container">
 	<div class="table-responsive">
-	<h2 align="center" style="color: red">${{Result}} <a href="${contextPath}/users" class="btn btn-danger" > Back</a> </h2> 
-	<h2 align="center">User Primary Details</h2>	
+	<h2 align="center" style="color: red">${{Result}} <a href="${contextPath}/users" class="btn btn-danger" > Volver</a> </h2> 
+	<h2 align="center">User Primary Detalles</h2>	
     <table class="table table-bordered">
         <tr>
             <th>Id</th>
-            <th>Name</th>
-            <th>Father's Name</th>
-            <th>Mother's Name</th> 
+            <th>Nombre</th>
+            <th>Nombre del padre</th>
+            <th>Nombre de la madre</th> 
             <th>Email</th>                       
-            <th>Phone Number</th>
+            <th>Numero telefonicor</th>
         </tr>         
       	<tr>
       	  <td>
@@ -102,21 +102,21 @@ body{
           </td>         
      	</tr>     	
     </table>
-    <h2 align="center">User Extra Details</h2>
+    <h2 align="center">Detalles extra</h2>
     <table class="table table-bordered">
         <tr>
-            <th>Date Of Birth</th>
-            <th>Gender</th>
-            <th>Marital Status</th>
-            <th>Permanent Address</th>            
-            <th>Temporary  Address</th>
-            <th>Primary Occupation</th>
-            <th>Secondary Occupation</th>
-            <th>Skills</th>
-            <th>Secondary PhoneNumber</th>
-            <th>Nationality</th>
-            <th>Language</th>
-            <th>Working Experience</th>
+            <th>Fecha de nacimiento</th>
+            <th>Genero</th>
+            <th>Estado civil</th>
+            <th>Dirección permanente</th>            
+            <th>Dirección temporal</th>
+            <th>Ocupación principal</th>
+            <th>Ocupación secundaria</th>
+            <th>Habilidades</th>
+            <th>Número de teléfono secundario</th>
+            <th>Nacionalidad</th>
+            <th>Idioma</th>
+            <th>Experiencia laboral</th>
         </tr>         
       	<tr>
       	  <td>

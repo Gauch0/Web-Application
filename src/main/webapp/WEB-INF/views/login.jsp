@@ -49,14 +49,14 @@
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="#">TECHNOLOGIES</a></li>
+                                <li><a href="#">TECNOLOGIAS</a></li>
                                 <li><a href="#">ABOUT</a></li>
                                 <li><a href="#">BLOG</a></li>
                             </ul>
                             <div class="navbar-collapse navbar-right collapse">
 	                            <ul class="nav navbar-nav">
 	                        	 <li><a href="${contextPath}/login">LOGIN</a></li>
-	                        	 <li><a href="${contextPath}/registration">SIGN UP</a></li>
+	                        	 <li><a href="${contextPath}/registration">REGISTRARSE</a></li>
 	                       	 	</ul>
                             </div>
                             
@@ -81,7 +81,7 @@
             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 
             <button class="btn btn-custom-LOGIN btn-lg  btn-block" type="submit">LOGIN</button>
-            <h4 class="text-center"><a href="${contextPath}/registration">Create an account</a></h4>
+            <h4 class="text-center"><a href="${contextPath}/registration">Registrarse</a></h4>
         </div>
 
     </form>

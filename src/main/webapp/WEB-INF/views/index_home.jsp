@@ -26,15 +26,15 @@
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="#technologies">TECHNOLOGIES</a></li>
-                                <li><a href="#about">ABOUT</a></li>
-                                <li><a href="#contact">CONTACT</a></li>
+                                <li><a href="#technologies">TECNOLOGIAS</a></li>
+                                <li><a href="#about">SOBRE MI</a></li>
+                                <li><a href="#contact">CONTACTo</a></li>
                                 <li><a href="#">BLOG</a></li>
                             </ul>
                             <div class="navbar-collapse navbar-right collapse">
 	                            <ul class="nav navbar-nav">
 	                        	 <li><a href="${contextPath}/login">LOGIN</a></li>
-	                        	 <li><a href="${contextPath}/registration">SIGN UP</a></li>
+	                        	 <li><a href="${contextPath}/registration">REGISTRARSE</a></li>
 	                       	 	</ul>
                             </div>
                             
@@ -56,14 +56,14 @@
 <div>
 <blockquote><p>
      <h2 align="center" style="font-family: Verdana,sans-serif;color:#1C3B47;">Keep Learning ..</h2>
-     <h3 align="center" style="font-family: Verdana,sans-serif;color:#1C3B47;">Learning is a Treasure that will follow it's Owner Everywhere..</h3> 
+     <h3 align="center" style="font-family: Verdana,sans-serif;color:#1C3B47;">El aprendizaje es un tesoro que seguirá a su dueño a todas partes..</h3> 
 </blockquote>
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
   <!-- Project Section -->
   <div class="container w3-padding-32" id="technologies">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" align="center">TECHNOLOGIES</h3>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" align="center">TECNOLOGIAS</h3>
   </div>
 
   <div class="w3-row-padding">
@@ -126,7 +126,7 @@
   
   <!-- Contact Section -->
   <div class="container w3-padding-32" id="contact">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" align="center">CONTACT</h3>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" align="center">CONTACTO</h3>
     <p>Lets get in touch and talk about your and our next project.</p>
     <form action="/action_page.php" target="_blank">
       <input class="w3-input" type="text" placeholder="Name" required name="Name">
@@ -134,7 +134,7 @@
       <input class="w3-input w3-section" type="text" placeholder="Subject" required name="Subject">
       <input class="w3-input w3-section" type="text" placeholder="Comment" required name="Comment">
       <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        <i class="fa fa-paper-plane"></i> ESCRIBIME
       </button>
     </form>
   </div>
