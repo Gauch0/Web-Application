@@ -46,7 +46,7 @@ systemctl daemon-reload
 systemctl start tomcat
 systemctl enable tomcat
 
-git clone -b main https://github.com/Gauch0/Web-Application
+git clone -b main https://github.com/Gauch0/Web-Application.git
 cd Web-Application
 mvn install
 systemctl stop tomcat
