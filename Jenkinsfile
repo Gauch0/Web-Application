@@ -5,6 +5,19 @@ pipeline {
         jdk "OracleJDK8"
     }
 
+    environment {
+        SNAP_REPO = 'webapp-snapshot'
+        NEXUS_USER = 'admin'
+        NEXUS_PASS = 'admin123'
+        RELEASE_REPO = 'webapp-release'
+        CENTRAL_REPO = 'webapp-maven-central'
+        NEXUSIP = '172.31.2.199'
+        NEXUSPORT = '8081'
+        NEXUS_GRP_REPO = 'webapp-maven-group'
+        NEXUS_LOGIN = 'nexuslogin'
+    }
+
+
     stages {
         stage('Build'){
             steps {
@@ -12,5 +25,8 @@ pipeline {
             }
         }
     }
+
+
+    
 
 }
