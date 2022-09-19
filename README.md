@@ -9,7 +9,6 @@
  * `Git bash or equivalent editor`
 
 
-
 ## VM Setup
 
 1. Clone source code.
